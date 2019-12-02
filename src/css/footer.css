@@ -1,0 +1,29 @@
+#footer p {
+  /*p reset*/
+  margin-top: 0;
+}
+#footer {
+  border-top: 1px solid red;
+}
+#footer > .content {
+  max-width: 840px; /*footer 的內容內縮*/
+  margin: auto;
+  padding: 0 40px;
+}
+#footer .icon-logo-graohic {
+  height: 2.5em;
+  margin-bottom: 2.5em;
+}
+#footer .follow-us {
+  font-size: 19px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1a1a1a;
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
