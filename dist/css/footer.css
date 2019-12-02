@@ -1,0 +1,74 @@
+#footer p {
+  /*p reset*/
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+#footer {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 1.5rem;
+}
+
+#footer > .content {
+  max-width: 840px; /*footer 的內容內縮*/
+  margin: auto;
+  padding: 0 40px;
+  margin-top: 3.75rem;
+}
+#footer .icon-logo-graphic {
+  width: 100%;
+  height: 2.5em;
+  margin-bottom: 2.5em;
+  background-image: url("../img/icon-logo-graphic.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#footer .follow-us {
+  font-size: 19px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1a1a1a;
+}
+#footer .iconLink {
+  font-size: 19px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  outline: none;
+  color: #1a1a1a;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+#footer .footer-group {
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+#footer .footer-group-item {
+  position: relative;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 13px;
+  color: #8e8e8e;
+}
+#footer .footer-group-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 50%;
+  background: #8e8e8e;
+  top: 6px;
+  right: -7.5px;
+}
+#footer .footer-group-item:last-child {
+  margin-right: 0;
+}
+#footer .footer-group-item:last-child::after {
+  display: none;
+}
+#footer .footer-group-item a {
+  text-decoration: none;
+  outline: none;
+  color: #8e8e8e;
+}
