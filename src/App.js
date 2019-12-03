@@ -60,7 +60,12 @@ function App() {
   return (
     <div className="App">
       <div>lorem</div>
-      <Footer footerData={footerData} />
+      <Footer
+        socialmediatitle={footerData.socialmediatitle}
+        socialmediabtns={footerData.socialmediabtns}
+        row1={footerData.row1}
+        row2={footerData.row2}
+      />
     </div>
   );
 }

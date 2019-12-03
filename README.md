@@ -14,7 +14,10 @@ yarn add hf-footer
 
 ## API
 
-- footerData : {socialmediatitle:'string', socialmediabtns:[], row1:[], row2:[]}
+- socialmediatitle:'string'
+- socialmediabtns:[], facebook, instagram
+- row1:[]
+- row2:[]
 
 ## CSS
 

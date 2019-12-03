@@ -4,12 +4,7 @@ import "./css/footer.css";
 
 export default class Footer extends Component {
   render() {
-    const {
-      socialmediatitle,
-      socialmediabtns,
-      row1,
-      row2
-    } = this.props.footerData;
+    const { socialmediatitle, socialmediabtns, row1, row2 } = this.props;
 
     return (
       <div id="footer">
