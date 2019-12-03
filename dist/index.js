@@ -47,11 +47,11 @@ function (_Component) {
   _createClass(Footer, [{
     key: "render",
     value: function render() {
-      var _this$props$footerDat = this.props.footerData,
-          socialmediatitle = _this$props$footerDat.socialmediatitle,
-          socialmediabtns = _this$props$footerDat.socialmediabtns,
-          row1 = _this$props$footerDat.row1,
-          row2 = _this$props$footerDat.row2;
+      var _this$props = this.props,
+          socialmediatitle = _this$props.socialmediatitle,
+          socialmediabtns = _this$props.socialmediabtns,
+          row1 = _this$props.row1,
+          row2 = _this$props.row2;
       return _react.default.createElement("div", {
         id: "footer"
       }, _react.default.createElement("div", {
