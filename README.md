@@ -10,7 +10,6 @@ yarn add hf-footer
 
 ## feature
 
-- 支援中英文切換
 - 支援 RWD
 
 ## API
