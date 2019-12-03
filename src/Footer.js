@@ -15,19 +15,20 @@ export default class Footer extends Component {
       <div id="footer">
         <div className="content">
           <div className="icon-logo-graphic"></div>
-          <p className="follow-us">{socialmediatitle}</p>
+          <p className="follow-us">{socialmediatitle && socialmediatitle}</p>
           <p className="footer-icons">
-            {socialmediabtns.map((data, index) => (
-              <a
-                className="iconLink"
-                href={data.url}
-                key={index}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className={`icon ${data.iconclass}`} />
-              </a>
-            ))}
+            {socialmediabtns &&
+              socialmediabtns.map((data, index) => (
+                <a
+                  className="iconLink"
+                  href={data.url}
+                  key={index}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className={`icon ${data.iconclass}`} />
+                </a>
+              ))}
           </p>
           {/* 第一列 */}
           <div className="footer-group">

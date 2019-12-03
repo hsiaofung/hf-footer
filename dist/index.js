@@ -60,9 +60,9 @@ function (_Component) {
         className: "icon-logo-graphic"
       }), _react.default.createElement("p", {
         className: "follow-us"
-      }, socialmediatitle), _react.default.createElement("p", {
+      }, socialmediatitle && socialmediatitle), _react.default.createElement("p", {
         className: "footer-icons"
-      }, socialmediabtns.map(function (data, index) {
+      }, socialmediabtns && socialmediabtns.map(function (data, index) {
         return _react.default.createElement("a", {
           className: "iconLink",
           href: data.url,
